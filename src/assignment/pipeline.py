@@ -20,7 +20,7 @@ from agents.agent import create_blue_agent
 from core.utils import chat_with_agent
 
 
-_APPROVED_EGRESS_DOMAINS = ("vinbank.vn", "vinbank.com")
+_APPROVED_EGRESS_DOMAINS = ("vinbank.example", "vinbank.vn", "vinbank.com")
 _EXTRA_SECRET_PATTERNS = (
     r"\b(?:db|database)[.\-_a-z0-9]*\.(?:internal|local)\b",
     r":5432\b",
